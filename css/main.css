@@ -1,0 +1,64 @@
+div.tablemain{
+    border-collapse: collapse;
+}
+.btn{
+    margin-left: 60%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.profilepic{
+    height: 40px;
+}
+
+/**
+div.container{
+
+}
+.topp{
+	left: 0;
+	right: 0;
+	top: 0.01em;
+    width: 100%;
+    display: inline-block;
+    border-bottom:solid 60px #4d4d4d;
+    position: absolute;
+}
+.btn {
+	background: #413b3b ;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    line-height: 1.25;
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    margin-left: 60%;
+    margin-top: 1%;
+    border-radius: 12px;
+}
+**/
+
+/**
+#container {
+    position: absolute;
+    margin-top: 8%;
+}
+#lefty {
+    margin-top: 6%;
+    position: absolute;
+    width: 25%;
+    margin-left: 2%;
+}
+#middle {
+    margin-top: 6%;
+    position: absolute;
+    width: 50%;
+    margin-left: 40%;
+}
+#righty {
+    margin-top: 6%;
+    position: absolute;
+    width: 25%;
+    margin-left: 74%;
+}
+**/

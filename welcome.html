@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Welcome to NoFace</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<!--
+<div class="topp">
+    <input type="Button" value="Profile" class="btn" />
+  </div>
+-->
+<div class="container">
+	
+  <TABLE BORDER=1 CELLSPACING=10 class="tablemain" style="width:100%">
+    
+    <TR class="topp">
+      <TD colspan="4"><input type="Button" value="Profile" class="btn" /></TD>
+    </TR>
+
+    <TR>
+      <TD class="profilepic" style="width:25%">
+      <img src="images/yoyo.jpeg" alt="Mountain View" style="width:304px;height:304px;">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <script type="text/javascript">
+        function aboutmeBtn(){
+        document.getElementById('span1').innerHTML = 'Dynamic content . . . '
+        }
+</script>    
+
+      <input type="file" name="fileToUpload" id="fileToUpload">
+      <input type="submit" value="Uploadd" name="submit">
+    </form>
+      </TD>
+      
+      <TD   align=left valign=top style="left:5; width:40%">
+      About Me<input type="button" id="aboutmeBtn" value="[edit]" style="padding:0; border:none; background:#001; border-radius:6px; cursor:pointer; margin-left:50%;" onclick="aboutmeBtn()"/>
+      <hr>
+      <div id="span1">
+        Here comes about me.
+      </div>
+      <hr>
+      <div id="span2" class="r">
+        Leftover space...
+      </div>
+      </TD>
+      
+      <td rowspan="3" align=left valign=top>My profile shown here but i can edit it.
+      </td>
+
+    </TR>
+    <tr> 
+      <td >links</td>
+      
+      <td >feed</td>
+    
+    </tr>
+
+
+  </TABLE>
+  
+  
+</div>
+
+</body>
+</html>
